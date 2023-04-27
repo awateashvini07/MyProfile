@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Discount calculator:</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet"> 
+
+    <style> 
+       *{ 
+    font-family: 'Sriracha', cursive;
+    background-color: #f2f2f2;
+    color: cadetblue;
+    font-size: x-large;
+
+} 
+input{ 
+    border-radius: 50px;
+    margin-block-start: 20px;
+    margin: right 1150px; 
+    background-color: white;
+    
+}
+h2{
+    text-transform: uppercase;
+    margin-left: 300px;
+ }
+ #calculate:hover{
+                background-color: burlywood;
+            }
+#calculate{
+        color:white;
+        background-color: darkgreen;
+        border-radius: 20px;
+    }
+    label{ 
+        margin-right: 300px;
+    }
+    #main{
+        margin-left: 30px;
+    }
+
+     </style> 
+    </head>
+    <body> 
+        <h2> Discount calculator</h2>
+        <p id="main"> Enter the Bill amount and discount in percentage </p>
+        <p> 
+            <label for=" billAmount" > Bill Amount</label>
+            <input type="number" id=" billAmount"><br>
+            <label for=" discount"> Discount percentage</label>
+            <input type=" number" id=" discount">
+        <p>
+            <button type="calculate"id="calculate"> Calculate </button>
+        </p>
+            <p>
+                 <label for=" total"> Total Discount Amount = =</label>
+            </p>
+        </p>
+    </body>
+</html>
